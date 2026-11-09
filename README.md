@@ -1,35 +1,22 @@
 # James Schriever
 
-**MSP operations leader building the systems that manage the systems.**
-Portland, OR · [LinkedIn](https://www.linkedin.com/in/jamesschriever-4010a716b) · jamesschriever@gmail.com
+**Operations Manager | MSP service delivery | AI operations and automation**
 
-I run service delivery for a managed service provider and own the AI stack end to end — designing the agents, tooling, and self-healing automation that keep multi-client infrastructure running with a human in the loop, not in the critical path. Deep across service desk operations, infrastructure engineering, and multi-agent AI platforms.
+Portland, OR | [LinkedIn](https://www.linkedin.com/in/james-schriever-4010a716b) | james@testytech.net
 
-## What I build
+I lead service desk operations at a managed IT services provider. I fix the people and process first, then automate what is left.
 
-- **Autonomous & multi-agent AI systems** — self-built agent dispatchers, incident-response bots, and enablement platforms wired into real operational tooling over MCP.
-- **AI-driven operations** — ticket triage, auto-remediation, and workflow automation that cut 20+ hours/week of company labor.
-- **Self-hosted infrastructure** — a production 4-node Proxmox cluster (30+ services, 58TB storage) that monitors itself, files its own issues, and dispatches AI agents to fix them.
+Tickets resolved within SLA rose from 64% to 84%, and same-day resolution rose from 26% to 56%, while the team went from 6 to 4. I also coached my dispatcher into a technical project manager role.
 
-## Featured projects
+That operations work shapes the automation I build. I built the company's AI tool server and shared AI workspace for a service desk supporting 38 active clients. The tool server connects 45 tools across 13 business systems. Since March 2026, AI has triaged 1,277 tickets, and technicians accepted 79% of its first-pass decisions unchanged.
 
-| Project | What it is |
-|---|---|
-| [**symphony**](https://github.com/shreeve1/symphony) | Self-hosted AI-agent dispatcher — turns tracker issues into completed, human-reviewed work via pluggable coding agents in isolated git worktrees. The engine behind a self-healing homelab. |
-| [**pi-win**](https://github.com/shreeve1/pi-win) | Windows SYSTEM-level AI diagnostics & remediation harness with full audit logging, deployable via any RMM. |
-| [**transcriblerr**](https://github.com/shreeve1/transcriblerr) | High-accuracy, low-latency transcription for Apple Silicon — offline whisper.cpp with system-audio capture. Rust. |
-| [**cleon-ui-claude**](https://github.com/shreeve1/cleon-ui-claude) | Mobile-first web UI for Claude Code — Express + WebSocket + SSE, JWT auth, session replay. |
-| [**ckb**](https://github.com/shreeve1/ckb_company_knowledge_base) | File-first, git-native company knowledge base with rebuildable semantic search and MCP lookup. |
-| [**Claude-Cowork**](https://github.com/shreeve1/Claude-Cowork) | AI-assistant toolkit: 150+ expert personas + reusable workflows, one-paste install. Deployed in production. |
+## Selected public work
 
-## Toolbox
+- **[Claude Cowork](https://github.com/shreeve1/Claude-Cowork)**: A workspace that packages 150+ expert personas, reusable workflows and team memory for non-technical staff.
+- **[Company Knowledge Base](https://github.com/shreeve1/ckb_company_knowledge_base)**: Validated Markdown records, review dates, rebuildable semantic search and read-only Model Context Protocol lookup.
+- **[pi-win](https://github.com/shreeve1/pi-win)**: Windows diagnostics and remediation through an RMM, with phased technician approval, rollback steps and action audit logs.
+- **[resume-help](https://github.com/shreeve1/resume-help)**: A profile-driven workflow for tailored resumes, cover letters, interview preparation and checked PDF/DOCX output.
 
-**AI/Automation** Claude & Anthropic SDK · MCP / FastMCP · multi-agent orchestration · Temporal · prompt engineering
-**Infra** Proxmox VE · Kubernetes · Docker · TrueNAS SCALE · Traefik · Proxmox Backup Server
-**Security** Wazuh SIEM · CrowdSec · SOPS/age · least-privilege, approval-gated change control
-**Networking** multi-vendor routing/switching · pfSense/Fortinet/UniFi · NetBird & WireGuard mesh VPN
-**Languages** Python · Bash · SQL · TypeScript
+## Background
 
-## Certifications
-
-AWS Cloud Practitioner · Google IT Support Specialization · Claude Code in Action · 3CX Phone System
+Before moving into operations management, I worked in systems administration and project delivery. I still build with Python, Bash, SQL, Temporal, Proxmox VE, Docker and Model Context Protocol integrations.
